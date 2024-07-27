@@ -13,8 +13,8 @@ router.use("/", user);
 
 // Need authentication
 router.use(authentication);
-router.get("/user", UserController.getUserById);
-// router.use("/travels", travel);
+router.get("/user/:id", UserController.getUserById);
+router.use("/travels", travel);
 
 // Error handler
 router.use(errorHandler);

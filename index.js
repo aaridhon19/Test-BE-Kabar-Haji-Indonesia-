@@ -4,7 +4,7 @@ if (process.env.NODE_ENV !== "production") {
   
   const express = require("express");
   const app = express();
-  const port = process.env.PORT || 3000;
+  const port = process.env.PORT;
   const router = require("./routers/index");
   
   const cors = require('cors')
@@ -15,6 +15,9 @@ if (process.env.NODE_ENV !== "production") {
   
   app.get("/", (req, res) => {
     console.log("Test Masuk");
+    res.status(200).json({
+      message: "Test Masuk",
+    });
   });
   
   app.use(router);
