@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const { hashPassword } = require('../helpers/bcrypt')
+const { hashPassword } = require('../helpers/brcypt')
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
