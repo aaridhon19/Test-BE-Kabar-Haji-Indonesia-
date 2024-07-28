@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Travel.hasMany(models.Favorite, { foreignKey: 'travelId' })
     }
   }
   Travel.init({
@@ -39,7 +40,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },
     rate: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.FLOAT,
       allowNull: false,
       validate: {
         notNull: {

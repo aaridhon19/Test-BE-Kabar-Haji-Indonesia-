@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "travelId": 2
+    },
+    {
+        "id": 1,
+        "userId": 1,
+        "travelId": 4
+    },
+    {
+        "id": 1,
+        "userId": 1,
+        "travelId": 6
+    },
+    {
+        "id": 1,
+        "userId": 2,
+        "travelId": 1
+    },
+    {
+        "id": 1,
+        "userId": 2,
+        "travelId": 3
+    },
+    {
+        "id": 1,
+        "userId": 2,
+        "travelId": 5
+    }
+]
