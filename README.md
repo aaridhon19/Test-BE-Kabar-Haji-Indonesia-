@@ -1,12 +1,12 @@
-## Getting Started
+# Getting Started
 
-# Clone Repository :
+## Clone Repository :
 
 ```bash
 git clone https://github.com/aaridhon19/Test-BE-Kabar-Haji-Indonesia-.git
 ```
 
-# Instal dependensi:
+## Instal dependensi:
 
 ```bash
 npm install
@@ -14,23 +14,23 @@ npm install
 yarn install
 ```
 
-# Database Configuration:
+## Database Configuration:
 
 Create a .env file based on .env.example and add your database configuration.
 
-# Jalankan server:
+## Jalankan server:
 
 ```bash
 npx nodemon
 ```
 The server will run on http://localhost:PORT
 
-## Usage
+# Usage
 
-# API Endpoints:
+## API Endpoints:
 
 Document the available API endpoints, usage examples, and required parameters.
 
-# Authentication:
+## Authentication:
 
 Describe how to authenticate, if necessary, including the use of tokens or login methods.
