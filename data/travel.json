@@ -52,5 +52,41 @@
         "price": 180,
         "description": "Discover the charm of Shakardu Resort. A picturesque retreat in Pakistan with unique landscapes and a cozy ambiance.",
         "image": "https://shorturl.at/jDYfx"
+    },
+    {
+        "id": 7,
+        "name": "Sunset Paradise",
+        "location": "Maldives",
+        "rate": 4.8,
+        "price": 300,
+        "description": "Indulge in the serene beauty of Sunset Paradise, with crystal clear waters and luxurious accommodations in the Maldives.",
+        "image": "https://shorturl.at/DaXxQ"
+    },
+    {
+        "id": 8,
+        "name": "Mountain Majesty",
+        "location": "Swiss Alps, Switzerland",
+        "rate": 4.9,
+        "price": 350,
+        "description": "Experience the majestic Swiss Alps at Mountain Majesty Resort, offering stunning views and world-class skiing.",
+        "image": "https://shorturl.at/QApNS"
+    },
+    {
+        "id": 9,
+        "name": "Tropical Retreat",
+        "location": "Bali, Indonesia",
+        "rate": 4.7,
+        "price": 220,
+        "description": "Unwind at Tropical Retreat in Bali, with lush gardens and traditional Balinese hospitality. Perfect for a relaxing vacation.",
+        "image": "https://shorturl.at/SM0dK"
+    },
+    {
+        "id": 10,
+        "name": "Ocean Breeze",
+        "location": "Gold Coast, Australia",
+        "rate": 4.7,
+        "price": 270,
+        "description": "Enjoy the sun and surf at Ocean Breeze, a premier resort on Australia's Gold Coast. Ideal for beach lovers and surfers.",
+        "image": "https://shorturl.at/hQeyh"
     }
 ]
