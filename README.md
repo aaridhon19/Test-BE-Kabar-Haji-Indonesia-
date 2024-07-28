@@ -6,7 +6,7 @@
 git clone https://github.com/aaridhon19/Test-BE-Kabar-Haji-Indonesia-.git
 ```
 
-## Instal dependensi:
+## Install Depedencies:
 
 ```bash
 npm install
@@ -18,7 +18,7 @@ yarn install
 
 Create a .env file based on .env.example and add your database configuration.
 
-## Jalankan server:
+## Running Server:
 
 ```bash
 npx nodemon
